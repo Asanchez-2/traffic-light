@@ -44,9 +44,10 @@
 }
 
 .glow {
-    width: 70px;
-    height: 70px;
-    border-radius: 70px;
-    background-color: #F5F3CE;
-    animation: glow 1s infinite alternate;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(247, 205, 16, 0.952), 0 0 50px rgba(247, 205, 16, 0.952), 0 0 90px rgba(247, 205, 16, 0.952);
+    animation: glow 2s infinite alternate;
 }

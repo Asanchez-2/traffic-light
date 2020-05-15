@@ -7,7 +7,9 @@ import "bootstrap";
 
 export class TrafficLight extends React.Component {
 	state = {
-		activate: false
+		active: false,
+		active2: false,
+		active3: false
 	};
 	render() {
 		return (
@@ -24,17 +26,17 @@ export class TrafficLight extends React.Component {
 					</div>
 					<div className="orange">
 						<div
-							className={this.state.active ? "glow" : "orange"}
+							className={this.state.active2 ? "glow" : "orange"}
 							onClick={() =>
-								this.setState({ active: !this.state.active })
+								this.setState({ active2: !this.state.active2 })
 							}
 						/>
 					</div>
 					<div className="green">
 						<div
-							className={this.state.active ? "glow" : "green"}
+							className={this.state.active3 ? "glow" : "green"}
 							onClick={() =>
-								this.setState({ active: !this.state.active })
+								this.setState({ active3: !this.state.active3 })
 							}
 						/>
 					</div>
